@@ -54,25 +54,25 @@
     </header>
 
     <section id="main-section" class="d-flex">
-        <!-- MENU LATERALE SX -->
+        <!-- ASIDE -->
         <aside class="d-flex flex-column justify-content-between text-white text-center">
             
             <nav>
             <ul class="p-2">
-                <li class="d-flex flex-column justify-content-between">
+                <li class="d-flex flex-row justify-content-center align-items-center">
                     <div class="">
                         <i class="fa-solid fa-house"></i>
                     </div>
                     <a href="#">Home</a>
                 </li>
-                <li class=" ">
+                <li class="d-flex flex-row justify-content-center align-items-center">
                     <div class="">
                         <i class="fa-solid fa-chart-simple"></i>
                         <a href="#">Stats</a>
                     </div>
                     
                 </li>
-                <li class="">
+                <li class="d-flex flex-row justify-content-center align-items-center">
                     <div>
                         <i class="fa-solid fa-signal"></i>
                         <a href="#">Signals</a>
@@ -82,7 +82,7 @@
             </nav>
             <nav>
             <ul class="p-2">
-                <li>
+                <li class="d-flex flex-row justify-content-center align-items-center">
                     <div>
                         <i class="fa-solid fa-gear"></i>
                         <a href="#">Admin</a>
@@ -96,9 +96,9 @@
         <main class="flex-grow-1 bg-dark text-light overflow-y-auto">
             <!-- HEADER MAIN -->
             <header class="">
-                <div class="container-fluid">
+                <div class="container-fluid align-items-center">
 
-                    <div class="row">
+                    <div class="row ">
 
                         <div class="col bg-success p-2">
                             LEFT
@@ -107,10 +107,12 @@
                         <div class="col bg-success p-2">
                             CENTER
                         </div>
+                        <!-- BUTTON OFFCANCAS -->
+                        <div class="col bg-success p-2 d-flex align-items-center">
 
-                        <div class="col bg-success p-2">
-                            <p>Nuovo studente</p>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                            <p class="mx-2">Nuovo studente</p>
+
+                            <button class="btn btn-primary p-2 px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
 
                             <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
 
@@ -328,7 +330,7 @@
 
                             <div class="p-2">
                                 <!-- PROSSIME CLASSI -->
-                                <div class="mb-1 rounded-3">
+                                <div class="mb-1 rounded-3 list-table-f-c">
                                     <table class="table custom-table ">
                                         <thead class="">
                                             <tr>
@@ -353,8 +355,22 @@
                                                 <td colspan="6">Classe 75</td>
                                                 <td>15 febbraio 2021</td>
                                                 <td>20%</td>
-                                                <td><div class="bg-success">Done</div></td>
-                                                <td>icon icon</td>
+                                                <td>
+                                                    <div class="d-inline-block">
+
+                                                    <span class="bg-success rounded-2">Done</span>
+
+                                                    </div>
+                                                </td>
+                                                <td class="mx-a">
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </span>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </span>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -363,8 +379,22 @@
                                                 <td colspan="6">Classe 75</td>
                                                 <td>16 febbraio 2021</td>
                                                 <td>20%</td>
-                                                <td>Done</td>
-                                                <td>icon icon</td>
+                                                <td>
+                                                    <div class="d-inline-block">
+
+                                                    <span class="bg-warning rounded-2">Process</span>
+
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </span>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </span>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -373,8 +403,22 @@
                                                 <td colspan="6">Classe 75</td>
                                                 <td>15 febbraio 2021</td>
                                                 <td>20%</td>
-                                                <td>Done</td>
-                                                <td>icon icon</td>
+                                                <td>
+                                                    <div class="d-inline-block">
+
+                                                    <span class="bg-success rounded-2">Done</span>
+
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </span>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </span>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -383,8 +427,22 @@
                                                 <td colspan="6">Classe 75</td>
                                                 <td>16 febbraio 2021</td>
                                                 <td>20%</td>
-                                                <td>Done</td>
-                                                <td>icon icon</td>
+                                                <td>
+                                                    <div class="d-inline-block">
+
+                                                    <span class="bg-success rounded-2">Done</span>
+
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </span>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </span>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -393,8 +451,22 @@
                                                 <td colspan="6">Classe 75</td>
                                                 <td>15 febbraio 2021</td>
                                                 <td>20%</td>
-                                                <td>Done</td>
-                                                <td>icon icon</td>
+                                                <td>
+                                                    <div class="d-inline-block">
+
+                                                    <span class="bg-danger rounded-2">Failed</i></span>
+
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </span>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </span>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -403,8 +475,22 @@
                                                 <td colspan="6">Classe 75</td>
                                                 <td>16 febbraio 2021</td>
                                                 <td>20%</td>
-                                                <td>Done</td>
-                                                <td>icon icon</td>
+                                                <td>
+                                                    <div class="d-inline-block">
+
+                                                    <span class="bg-warning rounded-2">Process</span>
+
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </span>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </span>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -413,8 +499,22 @@
                                                 <td colspan="6">Classe 75</td>
                                                 <td>15 febbraio 2021</td>
                                                 <td>20%</td>
-                                                <td>Done</td>
-                                                <td>icon icon</td>
+                                                <td>
+                                                    <div class="d-inline-block">
+
+                                                    <span class="bg-success rounded-2">Done</span>
+
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </span>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </span>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -423,8 +523,22 @@
                                                 <td colspan="6">Classe 75</td>
                                                 <td>16 febbraio 2021</td>
                                                 <td>20%</td>
-                                                <td>Done</td>
-                                                <td>icon icon</td>
+                                                <td>
+                                                    <div class="d-inline-block">
+
+                                                    <span class="bg-danger rounded-2">Failed</span>
+
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </span>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </span>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -433,8 +547,22 @@
                                                 <td colspan="6">Classe 75</td>
                                                 <td>16 febbraio 2021</td>
                                                 <td>20%</td>
-                                                <td>Done</td>
-                                                <td>icon icon</td>
+                                                <td>
+                                                    <div class="d-inline-block">
+
+                                                    <span class="bg-success rounded-2">Done</span>
+
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </span>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </span>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -443,8 +571,22 @@
                                                 <td colspan="6">Classe 75</td>
                                                 <td>16 febbraio 2021</td>
                                                 <td>20%</td>
-                                                <td>Done</td>
-                                                <td>icon icon</td>
+                                                <td>
+                                                    <div class="d-inline-block">
+
+                                                    <span class="bg-danger rounded-2">Failed</span>
+
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </span>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </span>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">
@@ -453,12 +595,26 @@
                                                 <td colspan="6">Classe 75</td>
                                                 <td>16 febbraio 2021</td>
                                                 <td>20%</td>
-                                                <td>Done</td>
-                                                <td>icon icon</td>
+                                                <td>
+                                                    <div class="d-inline-block">
+
+                                                    <span class="bg-success rounded-2">Done</span>
+
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </span>
+                                                    <span class="icon-container bg-light p-2 rounded">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </span>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row p-0 m-0"></th>
-                                                <td colspan="5" class="text-light" >Classe 75</td>
+                                                <td colspan="5" class="text-light">Classe 75</td>
                                                 <td class="text-light">16 febbraio 2021</td>
                                                 <td></td>
                                                 <td></td>
