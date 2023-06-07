@@ -53,7 +53,7 @@
 
     </header>
 
-    <section id="main-section" class="d-flex container-fluid">
+    <section id="main-section" class="d-flex">
         <!-- MENU LATERALE SX -->
         <aside class="d-flex flex-column justify-content-between text-white text-center">
             
@@ -127,7 +127,7 @@
                                 <!-- BODY OFFCANVAS  -->
                                 <form class="row g-3 needs-validation" novalidate>
 
-                                    <div class="col-md-4 position-relative">
+                                    <div class="col-md-6 position-relative">
 
                                         <label for="validationTooltip01" class="form-label">Nome</label>
 
@@ -135,13 +135,13 @@
 
                                         <div class="valid-tooltip">
 
-                                            Looks good!
+                                            Bene!
 
                                         </div>
 
                                     </div>
 
-                                    <div class="col-md-4 position-relative">
+                                    <div class="col-md-6 position-relative">
 
                                         <label for="validationTooltip02" class="form-label">Cognome</label>
 
@@ -149,15 +149,15 @@
 
                                         <div class="valid-tooltip">
 
-                                            Looks good!
+                                            Bene!
 
                                         </div>
 
                                     </div>
 
-                                    <div class="col-md-4 position-relative">
+                                    <div class="col-md-6 position-relative">
 
-                                    <label for="validationTooltipUsername" class="form-label">Username</label>
+                                    <label for="validationTooltipUsername" class="form-label">Email</label>
 
                                         <div class="input-group has-validation">
 
@@ -177,7 +177,7 @@
 
                                     <div class="col-md-6 position-relative">
 
-                                        <label for="validationTooltip03" class="form-label">City</label>
+                                        <label for="validationTooltip03" class="form-label">Password</label>
 
                                         <input type="text" class="form-control" id="validationTooltip03" required>
 
@@ -188,14 +188,73 @@
                                         </div>
 
                                     </div>
+                                    <div class="col-md-6 position-relative">
 
-                                    <div class="col-md-3 position-relative">
+                                        <label for="validationTooltipUsername" class="form-label">Ripeti Indirizzo Email</label>
+    
+                                            <div class="input-group has-validation">
+    
+                                                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+    
+                                                <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+    
+                                                <div class="invalid-tooltip">
+    
+                                                Please choose a unique and valid username.
+    
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+    
+                                        <div class="col-md-6 position-relative">
+    
+                                            <label for="validationTooltip03" class="form-label">Ripeti Password</label>
+    
+                                            <input type="text" class="form-control" id="validationTooltip03" required>
+    
+                                            <div class="invalid-tooltip">
+    
+                                                Please provide a valid city.
+    
+                                            </div>
+    
+                                        </div>
+                                        <div class="col-md-12 position-relative">
+    
+                                            <label for="validationTooltip03" class="form-label">Indirizzo</label>
+    
+                                            <input type="text" class="form-control" id="validationTooltip03" required>
+    
+                                            <div class="invalid-tooltip">
+    
+                                                Please provide a valid city.
+    
+                                            </div>
+    
+                                        </div>
+                                        <div class="col-md-6 position-relative">
+    
+                                            <label for="validationTooltip03" class="form-label">Città</label>
+    
+                                            <input type="text" class="form-control" id="validationTooltip03" required>
+    
+                                            <div class="invalid-tooltip">
+    
+                                                Please provide a valid city.
+    
+                                            </div>
+    
+                                        </div>
 
-                                        <label for="validationTooltip04" class="form-label">State</label>
+                                    <div class="col-md-4 position-relative">
+
+                                        <label for="validationTooltip04" class="form-label">Stato</label>
 
                                         <select class="form-select" id="validationTooltip04" required>
 
-                                            <option selected disabled value="">Choose...</option>
+                                            <option selected disabled value="">Scegli...</option>
 
                                             <option>...</option>
 
@@ -209,9 +268,9 @@
 
                                     </div>
 
-                                    <div class="col-md-3 position-relative">
+                                    <div class="col-md-2 position-relative">
 
-                                        <label for="validationTooltip05" class="form-label">Zip</label>
+                                        <label for="validationTooltip05" class="form-label">CAP</label>
 
                                         <input type="text" class="form-control" id="validationTooltip05" required>
 
@@ -222,13 +281,30 @@
                                         </div>
 
                                     </div>
-
+                                    <div>Foto</div>
+                                    <div class="input-group mb-3">
+                                        <input type="file" class="form-control" id="inputGroupFile02">
+                                        
+                                    </div>
+                                
                                     <div class="col-12">
+                                        <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                        <label class="form-check-label" for="invalidCheck2">
+                                            Seleziona per proseguire
+                                        </label>
+                                        </div>
+                                    </div>
+                                    
 
-                                        <button class="btn btn-primary" type="submit">Submit form</button>
+                                    <div class="col">
+
+                                        <button class="btn btn-primary" type="submit">Salva</button>
+
+                                        <button class="btn btn-warning" type="submit">Svuota</button>
 
                                     </div>
-
+                                    
                                 </form>
 
                             </div>
