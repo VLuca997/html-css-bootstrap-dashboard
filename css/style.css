@@ -1,0 +1,73 @@
+
+
+
+
+/* 
+
+        HEADER
+
+*/
+#main-header{
+    height: var(--header-height);
+}
+/* 
+
+        MAIN
+
+*/
+#main-section{
+    height: calc(100vh - var(--header-height));
+}
+
+
+
+
+
+
+
+/* 
+
+        ASIDE
+
+*/
+th img{
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+#main-section nav ul li, 
+#main-section nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 0;
+    color: red;
+    padding: 0 .625rem;
+    margin-right: 0rem;
+}
+aside{
+    background-image: url('../img/sidebar-bg.png');
+    background-size: cover;
+    background-color: #051e34;
+}  
+.statistics img{
+    max-width: 100%;
+    
+}
+
+
+
+
+
+
+
+/* 
+
+        ROOT
+
+*/
+:root{
+    --header-height: 60px;
+}
+
+
+

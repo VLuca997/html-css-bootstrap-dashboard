@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- BOOTSTRAP -->
-    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- FONT-AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,32 +13,377 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- HEADER -->
     <header>
-        <section class="bg-dark text-light p-2 ">
-            <div class="row">
-                <div class="col">1</div>
-                <div class="col-8">11</div>
-                <div class="col">111</div>
+
+        <section id="main-header" class="d-flex align-items-center  text-dark ">
+
+            <div class="container-fluid bg-light">
+
+                <div class="row">
+
+                    <div class="col-auto">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+
+                    <div class="col">
+                        Contenuto
+                    </div>
+
+                    <div class="col-auto">
+                        Contenuto
+                    </div>
+
+                </div>
+
             </div>
+
         </section>
+
     </header>
 
+    <section id="main-section" class="d-flex">
+        <!-- MENU LATERALE SX -->
+        <aside class="d-flex flex-column justify-content-between ">
+            <nav class="">
+                <ul>
+                    <li>
+                        <a href="#">LINK</a>
+                    </li>
+                    <li>
+                        <a href="#">LINK</a>
+                    </li>
+                    <li>
+                        <a href="#">LINK</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">LINK</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- MAIN -->
+        <main class="flex-grow-1 bg-dark text-light overflow-y-auto">
+            <!-- HEADER MAIN -->
+            <header class="">
+                <div class="container-fluid">
 
-    <main>
-        <section>
-            <aside class="">
-                <div class="row">
-                    <div class="col-2 vh-100 bg-danger">
-                        1111111111111111111111111111111111111111111
+                    <div class="row">
+
+                        <div class="col bg-success p-2">
+                            LEFT
+                        </div>
+
+                        <div class="col bg-success p-2">
+                            CENTER
+                        </div>
+
+                        <div class="col bg-success p-2">
+                            RIGHT
+                        </div>
+
                     </div>
-                    <div class="col-10 bg-primary p-4 h-25 ">
-                        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    </div>
+
                 </div>
-            </aside>
+            </header>
+            <!-- CENTRAL MAIN -->
+            <section>
 
-        </section>
-    </main>
+                <div class="container-fluid">
+
+                    <div class="row">
+
+                        <div class="bg-danger col-lg-7">
+
+                            <div class="p-1 ">
+                                <!-- PROSSIME CLASSI -->
+                                <div class=" bg-info mb-1 ">
+
+                                    <table class="table custom-table ">
+                                        <thead class="rounded-2">
+                                            <tr>
+                                                <th colspan="11" class="bg-white border-bottom ">
+                                                    <h3>PROSSIME CLASSI</h3>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <th colspan="7" scope="row">Nome</th>
+                                                <th scope="col">Data inizio</th>
+                                                <th scope="col">ROI</th>
+                                                <th scope="col">Stato</th>
+                                                <th scope="col">Azioni</th>
+
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img class="img-fluid img-logo" src="img/class-avatar.jpg" alt="">
+                                                </th>
+                                                <td colspan="6">Classe 75</td>
+                                                <td>15 febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>icon icon</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img class="img-fluid img-logo" src="img/class-avatar.jpg" alt="">
+                                                </th>
+                                                <td colspan="6">Classe 75</td>
+                                                <td>16 febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>icon icon</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img class="img-fluid img-logo" src="img/class-avatar.jpg" alt="">
+                                                </th>
+                                                <td colspan="6">Classe 75</td>
+                                                <td>15 febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>icon icon</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img class="img-fluid img-logo" src="img/class-avatar.jpg" alt="">
+                                                </th>
+                                                <td colspan="6">Classe 75</td>
+                                                <td>16 febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>icon icon</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img class="img-fluid img-logo" src="img/class-avatar.jpg" alt="">
+                                                </th>
+                                                <td colspan="6">Classe 75</td>
+                                                <td>15 febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>icon icon</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img class="img-fluid img-logo" src="img/class-avatar.jpg" alt="">
+                                                </th>
+                                                <td colspan="6">Classe 75</td>
+                                                <td>16 febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>icon icon</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img class="img-fluid img-logo" src="img/class-avatar.jpg" alt="">
+                                                </th>
+                                                <td colspan="6">Classe 75</td>
+                                                <td>15 febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>icon icon</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img class="img-fluid img-logo" src="img/class-avatar.jpg" alt="">
+                                                </th>
+                                                <td colspan="6">Classe 75</td>
+                                                <td>16 febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>icon icon</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img class="img-fluid img-logo" src="img/class-avatar.jpg" alt="">
+                                                </th>
+                                                <td colspan="6">Classe 75</td>
+                                                <td>16 febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>icon icon</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img class="img-fluid img-logo" src="img/class-avatar.jpg" alt="">
+                                                </th>
+                                                <td colspan="6">Classe 75</td>
+                                                <td>16 febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>icon icon</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img class="img-logo" src="img/class-avatar.jpg" alt="">
+                                                </th>
+                                                <td colspan="6">Classe 75</td>
+                                                <td>16 febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>icon icon</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row p-0 m-0"></th>
+                                                <td colspan="5" class="text-light" >Classe 75</td>
+                                                <td class="text-light">16 febbraio 2021</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                                <!-- FAQ -->
+
+                                <div class="bg-white text-dark mb-1 rounded-2">
+
+                                    <div class="container-fluid border-bottom">
+
+                                        <h2 class="p-2 m-2">F.A.Q</h2>
+
+                                      </div>
+
+                                    <div class="accordion accordion-flush" id="accordionFirstFAQ">
+
+                                        <div class="accordion-item">
+
+                                          <h2 class="accordion-header">
+
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+
+                                              Come aggiungere un nuovo studente?
+
+                                            </button>
+
+                                          </h2>
+
+                                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionSecondFAQ">
+
+                                            <div class="accordion-body bg-warning">Puoi aggiungerlo solo se ha finito di leggere Solo Leveling, senno non è degno</div>
+
+                                          </div>
+
+                                        </div>
+
+                                        <div class="accordion-item">
+
+                                          <h2 class="accordion-header">
+
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+
+                                              Come posso accedere alle informazioni sul mio account?
+                                              
+                                            </button>
+
+                                          </h2>
+
+                                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionThirdFAQ">
+
+                                            <div class="accordion-body bg-warning">Pagami e riavrai tutto ciò che ti appartiene</div>
+
+                                          </div>
+
+                                        </div>
+
+                                        <div class="accordion-item">
+
+                                          <h2 class="accordion-header">
+
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                
+                                              Posso usare questa dashboard da mobile?
+
+                                            </button>
+
+                                          </h2>
+
+                                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+
+                                            <div class="accordion-body bg-warning">Ovvio Capitano, Qua giocamo a chi fa le cose piu responsive!!</div>
+
+                                          </div>
+
+                                        </div>
+
+                                      </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="bg-info col-lg-5">
+
+                            <!-- TO-DO LIST -->
+                            <div class="bg-success">
+                                <div class="to-do-list bg-white p-1 mb-2">
+                                    <h3 class="text-center text-dark">To Do</h3>
+                                    <div class="m-auto">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                            <label class="form-check-label" for="firstCheckbox">Kick Off nuove classi</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                            <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                            <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap 5 in Classe #75</label>
+                                            </li>
+                                            <li class="list-group-item">
+                                            <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                            <label class="form-check-label" for="thirdCheckbox">Controllare username Git-Hub studenti</label>
+                                            </li>
+                                        </ul>
+                                    </div>    
+                                </div>    
+                                <!-- STATISTICHE -->
+
+                                <div class="bg-danger mb-1">
+                                    <div class="m-dark">
+                                        <div class="statistics bg-white text-dark p-1">
+                                            <img src="img/stats.jpeg" alt="">
+                                            <h5>Utenti Attivi</h5>
+                                            <p>Lista degli utenti attivi nell'ultimo mese</p>
+                                            <div class="info statistics">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">Gennaio: 1200</li>
+                                                    <li class="list-group-item">Febbraio:800</li>
+                                                    <li class="list-group-item">Marzo:600</li>
+                                                    <li class="list-group-item"><a href="#">Visualizza report approfondito</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+            
+        </main>
+
+
+
+
+
+    </section>
 
     <!-- CDN JAVASCRIPT BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
