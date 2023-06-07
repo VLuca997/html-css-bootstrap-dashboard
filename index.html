@@ -16,21 +16,25 @@
     <!-- HEADER -->
     <header>
 
-        <section id="main-header" class="d-flex align-items-center  text-dark ">
+        <section id="main-header" class="d-flex align-items-center text-dark ">
 
             <div class="container-fluid bg-light">
 
                 <div class="row">
 
-                    <div class="col-auto">
+                    <div class="col-auto p-1">
                         <img src="img/logo.svg" alt="">
                     </div>
 
                     <div class="col">
-                        Contenuto
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    
                     </div>
 
-                    <div class="col-auto">
+                    <div class="col-auto p-1">
                         Contenuto
                     </div>
 
@@ -97,14 +101,13 @@
 
                     <div class="row">
 
-                        <div class="bg-danger col-lg-7">
+                        <div class="col-lg-7">
 
-                            <div class="p-1 ">
+                            <div class="p-1">
                                 <!-- PROSSIME CLASSI -->
-                                <div class=" bg-info mb-1 ">
-
+                                <div class="mb-1 rounded-3">
                                     <table class="table custom-table ">
-                                        <thead class="rounded-2">
+                                        <thead class="">
                                             <tr>
                                                 <th colspan="11" class="bg-white border-bottom ">
                                                     <h3>PROSSIME CLASSI</h3>
@@ -324,12 +327,12 @@
 
                         </div>
 
-                        <div class="bg-info col-lg-5">
+                        <div class="col-lg-5 p-1">
 
                             <!-- TO-DO LIST -->
-                            <div class="bg-success">
-                                <div class="to-do-list bg-white p-1 mb-2">
-                                    <h3 class="text-center text-dark">To Do</h3>
+                            <div class="">
+                                <div class="to-do-list bg-white p-3 mb-2 rounded-3">
+                                    <h3 class="text-dark mb-2">To Do</h3>
                                     <div class="m-auto">
                                         <ul class="list-group">
                                             <li class="list-group-item">
@@ -349,17 +352,19 @@
                                 </div>    
                                 <!-- STATISTICHE -->
 
-                                <div class="bg-danger mb-1">
-                                    <div class="m-dark">
-                                        <div class="statistics bg-white text-dark p-1">
-                                            <img src="img/stats.jpeg" alt="">
-                                            <h5>Utenti Attivi</h5>
-                                            <p>Lista degli utenti attivi nell'ultimo mese</p>
+                                <div class="mb-1">
+                                    <div class="m-dark ">
+                                        <div class="statistics bg-white text-dark p-3 rounded-3 border-1">
                                             <div class="info statistics">
                                                 <ul class="list-group">
+                                                    <li class="list-group-item border-bottom-0"><img src="img/stats.jpeg" alt=""></li>
+                                                    <li class="list-group-item border-bottom-0"><p>Utenti Attivi</p></li>
+                                                    <li class="list-group-item"><p>Lista degli utenti attivi nell'ultimo mese</p></li>
+
+
                                                     <li class="list-group-item">Gennaio: 1200</li>
-                                                    <li class="list-group-item">Febbraio:800</li>
-                                                    <li class="list-group-item">Marzo:600</li>
+                                                    <li class="list-group-item">Febbraio: 800</li>
+                                                    <li class="list-group-item">Marzo: 1500</li>
                                                     <li class="list-group-item"><a href="#">Visualizza report approfondito</a></li>
                                                 </ul>
                                             </div>
